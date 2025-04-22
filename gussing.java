@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Random r = new Random();
-        int numberToGuess = r.nextInt(10);
+        int numberToGuess = r.nextInt(10); // increase difficulties here
         int guess;
         int lives = 3;
         Scanner scnr = new Scanner(System.in);
